@@ -3,8 +3,9 @@ import { OrangeProductButton } from "@/utils/productButtons";
 export default function HomeHero() {
     return (
         <>
-            <div className="w-full h-[628px] sm:h-[729px] flex flex-col justify-end items-center bg-black px-0 sm:px-10 md:px-20 lg:px-[165px] rounded-b-3xl transition-all duration-500 ease-in-out">
-                <div className="w-full h-[528px] sm:h-[633px] flex justify-center custom-lg:justify-between items-center transition-all duration-500 ease-in-out">
+            <div className="w-full h-[628px] sm:h-[729px] flex flex-col justify-end items-center bg-black px-0 sm:px-10 md:px-20 lg:px-[165px] rounded-b-xl transition-all duration-500 ease-in-out">
+                
+                <div className="w-full max-w-[1110px] h-[528px] sm:h-[633px] flex justify-center custom-lg:justify-between items-center transition-all duration-500 ease-in-out">
 
                     <div className="w-[396px] flex flex-col items-center custom-lg:items-start text-center custom-lg:text-left absolute z-30 custom-lg:static">
                         <span className="text-white opacity-[49.64%] text-sm tracking-[10px] uppercase bg-transparent">
@@ -24,6 +25,7 @@ export default function HomeHero() {
                         <img src="/images/home/desktop/figma_download_hero_bitmap_copy3_edit1_ai-upscale400.jpg" className="max-h-[525px] rounded-full border-none opacity-70 bg-blend-hard-light -z-10" />
                     </div>
                 </div>
+
             </div>
         </>
     );
