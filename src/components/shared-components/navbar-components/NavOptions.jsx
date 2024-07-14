@@ -14,7 +14,7 @@ export default function NavOptions() {
     };
 
     return (
-        <div className="w-[429px] hidden custom-lg:flex justify-between items-center">
+        <div className="mr-16 w-[429px] hidden custom-lg:flex justify-between items-center">
             {navOptions.map((option, index) => (
                 <a href={option.path} key={index}>
                     <span className={`text-[13px] uppercase font-bold tracking-[2px] leading-[25px] hover:cursor-pointer 
