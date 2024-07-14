@@ -1,4 +1,4 @@
-import OrangeProductButton from "../shared-components/shared-buttons/OrangeProductButton";
+import { OrangeProductButton } from "@/utils/productButtons";
 
 export default function HomeHero() {
     return (
@@ -21,7 +21,7 @@ export default function HomeHero() {
                     </div>
 
                     <div className="block custom-lg:inline-block">
-                        <img src="/home/desktop/figma_download_hero_bitmap_copy3_edit1_ai-upscale400.jpg" className="max-h-[525px] rounded-full border-none opacity-70 bg-blend-hard-light -z-10" />
+                        <img src="/images/home/desktop/figma_download_hero_bitmap_copy3_edit1_ai-upscale400.jpg" className="max-h-[525px] rounded-full border-none opacity-70 bg-blend-hard-light -z-10" />
                     </div>
                 </div>
             </div>
