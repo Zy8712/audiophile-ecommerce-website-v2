@@ -18,9 +18,16 @@ module.exports = {
         'theme-super-light-grey': 'rgba(0,0,0,0.1)',
         'theme-light-translucent-grey': 'rgba(0,0,0,0.6)',
         'theme-checkout-grey': '#CFCFCF',
+
+        'theme-white-op-20': 'rgba(255,255,255,0.2)',
       },
       fontFamily: {
         'theme-manrope': ['Manrope', 'sans-serif'],
+      },
+      screens: {
+        'custom-lg' : '1140px',
+        'custom-md' : '900px',
+        'custom-sm' : '480px',
       },
     },
   },

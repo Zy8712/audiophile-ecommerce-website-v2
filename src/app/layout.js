@@ -1,6 +1,5 @@
 import Navbar from "@/components/shared-components/navbar-components/Navbar";
 
-
 import "@/styles/global.css";
 
 export const metadata = {
@@ -13,8 +12,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head></head>
       <body className="relative h-full min-h-screen overflow-x-hidden overflow-y-auto !m-0 !p-0">
-        <Navbar />
-        <main className="w-full h-full min-h-screen !m-0 !p-0">
+        <main className="relative w-full h-full min-h-screen !m-0 !p-0">
+          <Navbar />
           {children}
         </main>
       </body>
