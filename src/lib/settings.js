@@ -30,7 +30,7 @@ const projectsSlice = createSlice({
 
 
 export const {
-    toggleCart
+    toggleCart,
 } = projectsSlice.actions;
 
 export default projectsSlice.reducer;
