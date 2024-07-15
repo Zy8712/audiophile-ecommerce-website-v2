@@ -17,6 +17,7 @@ export default function Navbar() {
                     <NavOptions />
 
                     <Provider store={store}>
+                        
                         <CartToggle />
                     </Provider>
 

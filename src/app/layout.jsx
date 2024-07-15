@@ -2,6 +2,7 @@ import "@/styles/global.css";
 import Navbar from "@/components/shared-components/navbar-components/Navbar";
 import Footer from "@/components/shared-components/footer-components/Footer";
 import JumpToTopButton from "@/components/shared-components/JumpToTopButton";
+import Cart from "@/components/shared-components/Cart";
 
 export const metadata = {
   title: "Create Next App",

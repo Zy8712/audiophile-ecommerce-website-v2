@@ -1,12 +1,14 @@
+'use client'
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleCartAppearance } from '@/lib/settings';
+import { toggleCart } from '@/lib/settings';
+import Cart from '../Cart';
 
 export default function CartToggle() {
     const dispatch = useDispatch();
     const { totalItems } = useSelector(state => state.projects);
 
     const handleCartClick = () => {
-        dispatch(toggleCartAppearance());
+        dispatch(toggleCart());
     }
 
     return (
@@ -19,6 +21,8 @@ export default function CartToggle() {
                 <div className="absolute z-[60px] -top-2 -right-3 w-4 h-4 flex flex-col justify-center items-center bg-theme-dark-orange rounded-full text-white font-bold text-[8px] text-center">
                     <span>{totalItems}</span>
                 </div>
+                
+                <Cart />
             </div>
         </>
     );
