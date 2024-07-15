@@ -22,7 +22,7 @@ const projectsSlice = createSlice({
     name: 'projects',
     initialState,
     reducers: {
-        toggleCart(state){
+        toggleCartAppearance(state){
             state.showCart = !state.showCart;
         },
     },
@@ -30,7 +30,7 @@ const projectsSlice = createSlice({
 
 
 export const {
-    toggleCart,
+    toggleCartAppearance,
 } = projectsSlice.actions;
 
 export default projectsSlice.reducer;

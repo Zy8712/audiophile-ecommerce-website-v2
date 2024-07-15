@@ -1,12 +1,12 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleCart } from '@/lib/settings';
+import { toggleCartAppearance } from '@/lib/settings';
 
 export default function CartToggle() {
     const dispatch = useDispatch();
     const { totalItems } = useSelector(state => state.projects);
 
     const handleCartClick = () => {
-        dispatch(toggleCart());
+        dispatch(toggleCartAppearance());
     }
 
     return (
