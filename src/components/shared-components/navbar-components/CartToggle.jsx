@@ -1,7 +1,7 @@
 'use client'
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleCart } from '@/lib/settings';
-import Cart from '../Cart';
+import Cart from '../cart-components/Cart';
 
 export default function CartToggle() {
     const dispatch = useDispatch();

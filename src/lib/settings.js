@@ -25,10 +25,13 @@ const projectsSlice = createSlice({
         toggleCart(state){
             state.showCart = !state.showCart;
         },
+        toggleMobileMenu(state){
+            state.showMobileMenu = !state.showMobileMenu;
+        },
     },
 });
 
 
-export const { toggleCart } = projectsSlice.actions;
+export const { toggleCart, toggleMobileMenu } = projectsSlice.actions;
 
 export default projectsSlice.reducer;

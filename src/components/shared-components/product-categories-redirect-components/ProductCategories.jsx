@@ -4,12 +4,13 @@ export default function ProductCategories() {
 
     return (
         <>
-            <div className="w-full h-[683px] sm:h-[284px] flex flex-col md:flex-row justify-between items-center">
+            <div className="w-full h-[683px] md:h-[284px] flex flex-col md:flex-row justify-between items-center">
                 
                 {productCategoriesData.map((category, index) => (
                     <a href={category.categoryLink} key={index} 
                     className={`w-full md:w-[230px] custom-md:w-[275px] lg:w-[300px] custom-lg:w-[350px] ${category.mobileMenuVer ? 'h-[160px]' : 'h-[217px]'}  md:h-full flex flex-col justify-end transition-all duration-500 ease-in-out`}>
                         <div className={`w-full ${category.mobileMenuVer ? 'h-[110px]' : 'h-[160px]'} md:h-[204px] flex flex-col justify-end items-center bg-theme-light-grey rounded-lg relative group hover:cursor-pointer`}>
+                            
                             <img src={category.categoryImage} className={category.categoryImageStyling} />
 
                             <div className={`w-full h-[58px] text-center ${category.mobileMenuVer ? 'mb-1' : 'mb-[30px]'}`}>
