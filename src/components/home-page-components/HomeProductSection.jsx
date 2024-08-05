@@ -1,5 +1,5 @@
 import HomeProductSectionLayout from "@/layouts/HomeProductSectionLayout";
-import ProductCategories from "../shared-components/product-categories-redirect-components/ProductCategories";
+import ProductCategories from "../shared-components/ProductCategories";
 import { ProductPromoSection, ZX9SpeakerPromo, ZX7SpeakerPromo, YX1EarphonePromo } from "@/utils/homePageProductPromo";
 import SiteDescription from "../shared-components/SiteDescription";
 

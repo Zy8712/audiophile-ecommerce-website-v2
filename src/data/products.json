@@ -1,0 +1,86 @@
+[
+    {
+        "category": 1,
+        "nameFront": "XX99 Mark II",
+        "nameBack": "Headphones",
+        "newProduct": true,
+        "link": "/headphones/xx99markiiheadphones",
+        "lineBreak": true,
+        "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+        "preview_images": {
+            "previewImageDesktop": "/images/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg",
+            "previewImageTablet": "/images/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg",
+            "previewImageMobile": "/images/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
+        }
+    },
+    {
+        "category": 1,
+        "nameFront": "XX99 Mark I",
+        "nameBack": "Headphones",
+        "newProduct": false,
+        "link": "/headphones/xx99markiheadphones",
+        "lineBreak": true,
+        "description": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
+        "preview_images": {
+            "previewImageDesktop": "/images/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg",
+            "previewImageTablet": "/images/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
+            "previewImageMobile": "/images/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
+        }
+    },
+    {
+        "category": 1,
+        "nameFront": "XX59",
+        "nameBack": "Headphones",
+        "newProduct": false,
+        "link": "/headphones/xx59headphones",
+        "lineBreak": true,
+        "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
+        "preview_images": {
+            "previewImageDesktop": "/images/product-xx59-headphones/desktop/image-category-page-preview.jpg",
+            "previewImageTablet": "/images/product-xx59-headphones/tablet/image-category-page-preview.jpg",
+            "previewImageMobile": "/images/product-xx59-headphones/mobile/image-category-page-preview.jpg"
+        }
+    },
+    {
+        "category": 2,
+        "nameFront": "ZX9",
+        "nameBack": "Speaker",
+        "newProduct": true,
+        "link": "/speakers/zx9speaker",
+        "lineBreak": true,
+        "description": "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+        "preview_images": {
+            "previewImageDesktop": "/images/product-zx9-speaker/desktop/image-category-page-preview.jpg",
+            "previewImageTablet": "/images/product-zx9-speaker/tablet/image-category-page-preview.jpg",
+            "previewImageMobile": "/images/product-zx9-speaker/mobile/image-category-page-preview.jpg"
+        }
+    },
+    {
+        "category": 2,
+        "nameFront": "ZX7",
+        "nameBack": "Speaker",
+        "newProduct": false,
+        "link": "/speakers/zx7speaker",
+        "lineBreak": true,
+        "description": "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
+        "preview_images": {
+            "previewImageDesktop": "/images/product-zx7-speaker/desktop/image-category-page-preview.jpg",
+            "previewImageTablet": "/images/product-zx7-speaker/tablet/image-category-page-preview.jpg",
+            "previewImageMobile": "/images/product-zx7-speaker/mobile/image-category-page-preview.jpg"
+        }
+    },
+    {
+        "category": 3,
+        "nameFront": "YX1 Wireless",
+        "nameBack": "Earphones",
+        "newProduct": true,
+        "link": "/earphones/yx1wirelessearphones",
+        "lineBreak": true,
+        "description": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+        "preview_images": {
+            "previewImageDesktop": "/images/product-yx1-earphones/desktop/image-category-page-preview.jpg",
+            "previewImageTablet": "/images/product-yx1-earphones/tablet/image-category-page-preview.jpg",
+            "previewImageMobile": "/images/product-yx1-earphones/mobile/image-category-page-preview.jpg"
+        }
+    }
+]

@@ -1,8 +1,9 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import CategoryPageHeader from "@/components/product-category-page-components/CategoryPageHeader";
+import CategoryPageHeader from "@/components/shared-components/product-page-components/CategoryPageHeader";
 import ProductCategoryPageLayout from "@/layouts/ProductCategoryPageLayout";
+import ProductListings from '@/components/shared-components/product-page-components/ProductListings';
 
 export default function ProductCategoryPage() {
 
@@ -14,7 +15,7 @@ export default function ProductCategoryPage() {
         <>
             <CategoryPageHeader>{pageTitle}</CategoryPageHeader>
             <ProductCategoryPageLayout>
-
+                <ProductListings />
             </ProductCategoryPageLayout>
         </>
     );

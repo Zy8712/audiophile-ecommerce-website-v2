@@ -1,5 +1,5 @@
 
-export default function SpeakersProduct(){
+export default function ProductPage(){
     return(
         <>
         
