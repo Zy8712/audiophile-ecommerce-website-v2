@@ -1,9 +1,9 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import CategoryPageHeader from "@/components/shared-components/product-page-components/CategoryPageHeader";
+import CategoryPageHeader from "@/components/shared-components/product-category-page-components/CategoryPageHeader";
 import ProductCategoryPageLayout from "@/layouts/ProductCategoryPageLayout";
-import ProductListings from '@/components/shared-components/product-page-components/ProductListings';
+import ProductListings from '@/components/shared-components/product-category-page-components/ProductListings';
 import ProductCategories from '@/components/shared-components/ProductCategories';
 import SiteDescription from '@/components/shared-components/SiteDescription';
 
