@@ -1,4 +1,3 @@
-
 import AudiophileLogo from "@/components/shared-components/navbar-components/Logo";
 import NavbarOptions from "@/components/shared-components/navbar-components/NavOptions";
 import CartToggleButton from "@/components/shared-components/navbar-components/CartToggle";

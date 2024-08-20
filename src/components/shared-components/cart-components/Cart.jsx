@@ -14,8 +14,7 @@ export default function Cart() {
 
                 <EmptyCartMessage totalItems={totalItems} />
 
-
             </div>
         </>
     );
-}
+} //BL
