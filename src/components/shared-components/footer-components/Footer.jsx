@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className="w-full md:w-[540px] h-full transition-all duration-500 ease-in-out">
                             <p className="text-white opacity-50 font-medium text-[15px] leading-[25px] text-center custom-sm:text-left">
                                 Audiophile is an all in one stop to fulfill your audio needs.
-                                We're a small team of music lovers and sound specialists who are devoted to
+                                We&apos;re a small team of music lovers and sound specialists who are devoted to
                                 helping you get the most out of personal audio.
                                 Come and visit our demo facility - we&apos;re open 7 days a week.
                             </p>
