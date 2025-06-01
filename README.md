@@ -12,14 +12,14 @@
         <img align="center" src="https://img.shields.io/badge/Project_Difficulty-Guru-ed2c49?style=flat&logo=codeigniter&logoColor=white" />
     </p>
     <p>
-        <img align="center" src="https://img.shields.io/badge/Vite-v4.5.2-646CFF?style=flat&logo=vite&logoColor=white" />
-        <img align="center" src="https://img.shields.io/badge/PostCSS-v5.0.12-DD3A0A?style=flat&logo=postcss&logoColor=white" />
+        <img align="center" src="https://img.shields.io/badge/Next.js-v14.2.5-black?style=flat&logo=nextdotjs&logoColor=white" />
         <img align="center" src="https://img.shields.io/badge/React-v18.2.0-blue?style=flat&logo=react&logoColor=white" />
         <img align="center" src="https://img.shields.io/badge/Tailwind_CSS-v3.4.1-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
         <img align="center" src="https://img.shields.io/badge/Redux-v9.1.0-764ABC?style=flat&logo=redux&logoColor=white" />
-        <img align="center" src="https://img.shields.io/badge/Wouter-v2.12.1-black?style=flat" />
-        <img align="center" src="https://img.shields.io/badge/ESLint-v8.56.0-4B32C3?style=flat&logo=eslint&logoColor=white" />
-        <img align="center" src="https://img.shields.io/badge/Autoprefixer-v10.4.17-DD3735?style=flat&logo=autoprefixer&logoColor=white" />
+    </p>
+    <p>
+        <img align="center" src="https://img.shields.io/badge/Google_Analytics-E37400?style=flat&logo=googleanalytics&logoColor=white" />
+        <img align="center" src="https://img.shields.io/badge/Google_Tag_Manager-246FDB?style=flat&logo=googletagmanager&logoColor=white" />
     </p>
 </div>
 <br />
